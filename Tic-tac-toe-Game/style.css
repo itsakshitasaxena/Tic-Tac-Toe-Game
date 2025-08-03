@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/040/076/817/original/seamless-loop-animated-beautiful-background-free-video.jpg");
+  background-size: cover;         
+  /* background-repeat: no-repeat;    */
+  background-position: center;    
+  height: 110vh;                  
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;  
+  text-align: center;                
+}
+
+
+h1{
+    font-size: 4rem;
+    color: yellow;
+    margin: 2rem 0;
+}
+
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.game{
+    height: 60vmin; /*60% of viewport height*/
+    width: 60vmin;
+    display: flex; /*boxes in single line*/
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1.5vmin;
+}
+
+.box{
+    height:15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0);
+    font-size: 8vmin;
+    color:blue;
+    background-color:aliceblue
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color:greenyellow;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+}
+
+#newgame-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: hotpink;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: greenyellow;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+    background-color: #121212;
+
+}
+
+.hide{
+    display: none;
+}
